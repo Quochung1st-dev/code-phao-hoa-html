@@ -1,2 +1,34 @@
-Hôm nay mình sẽ chia sẻ một source code pháo hoa mà mình sưu tầm được, một code pháo hoa khá đẹp cho ngày tết thêm lung linh. Nay mình chia sẻ lại cho những bạn làm website muốn học hỏi và nghiên cứu trang trí cho ngôi nhà thứ 2 của mình thêm lộng lẫy lung linh huyền ảo. Source code có âm thanh sống động và có thể tùy chỉnh một số trong cài đặt
-Hoặc các bạn có thể xem thêm tại <a href="https://vnhte.com/chia-se-code-phao-hoa-don-tet-nam-2023">Code pháo hoa</a>
+# Code Pháo Hoa Đón Tết
+
+![Banner Pháo Hoa](banner-phao-hoa.png)
+
+Dự án hiển thị hiệu ứng pháo hoa đón Tết sử dụng HTML5 Canvas và JavaScript
+
+## Tính năng chính
+- Hiệu ứng pháo hoa đa dạng màu sắc
+- Animation mượt với physics simulation
+- Tự động resize theo màn hình
+- Hiệu ứng particle tỏa sáng
+- Hỗ trợ cả desktop và mobile
+
+## Cách sử dụng
+1. Clone repo
+   ```bash
+   git clone https://github.com/Quochung1st-dev/code-phao-hoa-html.git
+   ```
+2. Mở file `index.html` bằng trình duyệt
+
+## Cấu hình
+Thay đổi các thông số trong `js/MyMath.js` để tuỳ chỉnh:
+- Số lượng particle
+- Tốc độ bắn pháo hoa
+- Trọng lực
+- Thời gian fade
+
+## Thư viện sử dụng
+- [Stage.js 0.1.4](js/Stage.0.1.4.js)
+- [fscreen 1.0.1](js/fscreen.1.0.1.js)
+- Bootstrap 4 (CDN)
+
+## License
+MIT License
